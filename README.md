@@ -13,6 +13,27 @@ stock-desktop
 
 On first run, set your [brapi.dev](https://brapi.dev) token in the app settings (or in `~/.config/stock-desktop/token`).
 
+## Autostart (optional)
+
+To launch on login:
+
+```bash
+mkdir -p ~/.config/autostart
+cat > ~/.config/autostart/stock-desktop.desktop << 'EOF'
+[Desktop Entry]
+Type=Application
+Name=Stock Desktop
+Exec=stock-desktop
+Icon=com.stockdesktop.app
+Terminal=false
+Hidden=false
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=3
+EOF
+```
+
+From a cloned repo, you can also run `./scripts/install-autostart.sh`.
+
 ## Install from source (dev)
 
 ```bash
