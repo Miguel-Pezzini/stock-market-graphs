@@ -1,19 +1,19 @@
 # Stock Desktop
 
-Acompanhe ações da B3 no Ubuntu/GNOME — preço, variação e gráfico. Funciona como janela ou widget no desktop.
+Track B3 stocks on Ubuntu/GNOME — price, change, and chart. Works as a window or desktop widget.
 
-## Instalar (.deb)
+## Install (.deb)
 
-Baixe o `.deb` na [página de Releases](https://github.com/Miguel-Pezzini/stock-market-graphs/releases) e instale:
+Download the `.deb` from [Releases](https://github.com/Miguel-Pezzini/stock-market-graphs/releases) and install:
 
 ```bash
 sudo apt install ./stock-desktop_*.deb
 stock-desktop
 ```
 
-Na primeira vez, configure o token da [brapi.dev](https://brapi.dev) nas configurações do app (ou em `~/.config/stock-desktop/token`).
+On first run, set your [brapi.dev](https://brapi.dev) token in the app settings (or in `~/.config/stock-desktop/token`).
 
-## Instalar do código (dev)
+## Install from source (dev)
 
 ```bash
 git clone https://github.com/Miguel-Pezzini/stock-market-graphs.git
@@ -27,13 +27,13 @@ pip install -e .
 python -m src.main
 ```
 
-## Gerar o .deb
+## Build the .deb
 
 ```bash
 ./scripts/build-deb.sh
-# saída: dist/stock-desktop_0.1.0_*.deb
+# output: dist/stock-desktop_0.1.0_*.deb
 ```
 
 ## Config
 
-Tickers, tema e modo (`normal` ou `desktop_widget`) em `~/.config/stock-desktop/config.json`.
+Tickers, theme, and mode (`normal` or `desktop_widget`) live in `~/.config/stock-desktop/config.json`.
