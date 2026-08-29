@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Stock chart">
+  <rect width="48" height="48" rx="11" fill="#1c6b52"/>
+  <path
+    d="M9 33 L17 25 L24 28 L33 13 L39 17"
+    fill="none"
+    stroke="#6ee7a8"
+    stroke-width="3.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <circle cx="39" cy="17" r="3" fill="#6ee7a8"/>
+  <path
+    d="M9 36 L39 36"
+    fill="none"
+    stroke="#ffffff"
+    stroke-opacity="0.22"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+</svg>
