@@ -5,6 +5,7 @@ venv/
 .env
 *.egg-info/
 dist/
+*.deb
 build/
 .pytest_cache/
 .mypy_cache/

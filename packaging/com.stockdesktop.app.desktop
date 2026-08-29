@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Stock Desktop
+Comment=Dashboard de ações B3 no desktop
+Exec=stock-desktop
+Icon=com.stockdesktop.app
+Terminal=false
+Categories=Finance;Office;
+StartupNotify=true
